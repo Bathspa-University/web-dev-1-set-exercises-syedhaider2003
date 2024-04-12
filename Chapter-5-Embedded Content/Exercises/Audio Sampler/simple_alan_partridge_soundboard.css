@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('colored-doodle-music-instrument-melody-sound-note-vector-48497125.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .fh1 {
+    margin-bottom: 20px;
+  }
+  
+  .soundboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .soundboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  .sample {
+    background-color: #00e5ff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    border: solid black;
+    width: 200px; 
+    height: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sample:hover {
+    background-color: #bbb;
+  }
+  
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+  }
+  
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+  
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
