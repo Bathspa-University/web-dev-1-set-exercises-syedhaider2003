@@ -1,0 +1,99 @@
+/* Resetting default styles */
+body {
+    font-family: Arial, sans-serif; /* Setting font-family */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+}
+
+/* Styling for header */
+header {
+    background-color: blue; /* Setting background color */
+    padding: 10px 0; /* Adding padding */
+}
+
+/* Styling for navigation */
+nav ul {
+    list-style-type: none; /* Removing default list-style */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+}
+
+nav ul li {
+    display: inline; /* Making list items display inline */
+}
+
+nav ul li a {
+    color: #fff; /* Setting link color */
+    text-decoration: none; /* Removing underline */
+    padding: 10px 20px; /* Adding padding */
+}
+
+nav ul li a:hover {
+    background-color: rgb(219, 0, 0); /* Changing background color on hover */
+    color: rgb(255, 255, 255); /* Changing text color on hover */
+    border-radius: 80px; /* Adding border radius */
+    transition: 1.5s; /* Adding transition effect */
+}
+
+/* Styling for main content */
+main {
+    padding: 20px; /* Adding padding */
+}
+
+section {
+    margin-bottom: 20px; /* Adding margin at the bottom of sections */
+}
+
+h2 {
+    color: #333; /* Setting color for h2 elements */
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333; /* Setting background color */
+    color: #fff; /* Setting text color */
+    text-align: center; /* Center-aligning text */
+    padding: 10px 0; /* Adding padding */
+}
+
+footer a {
+    color: #fff; /* Setting link color */
+    text-decoration: none; /* Removing underline */
+}
+
+/* Styling for buttons */
+.button {
+    display: inline-block; /* Making buttons display inline-block */
+    padding: 10px 20px; /* Adding padding */
+    background-color: #007bff; /* Setting background color */
+    color: #fff; /* Setting text color */
+    text-decoration: none; /* Removing underline */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Adding border radius */
+    cursor: pointer; /* Changing cursor to pointer */
+}
+
+/* Additional custom styles */
+
+.div-plot {
+    background: radial-gradient(circle, rgba(125,70,4,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: white 0px 2px 8px 0px;
+}
+
+.you {
+    text-align: center;
+    font-family: Lora;
+    color: white;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.section-key, .section-cast, .section-characters, .section-reviews {
+    background: radial-gradient(circle, rgba(125,70,4,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: white 0px 2px 8px 0px;
+}
