@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#rgb-value {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#color-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-option {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#message {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#score {
+    font-weight: bold;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
