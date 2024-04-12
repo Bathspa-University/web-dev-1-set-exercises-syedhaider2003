@@ -1,0 +1,92 @@
+/* Reset default styles and set base font-family */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Set background color for the body */
+}
+
+/* Define container styles */
+.container {
+    max-width: 1200px; /* Limit container width */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Set header background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Add top and bottom padding */
+}
+
+/* Header title styles */
+header h1 {
+    margin: 0; /* Remove margin */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove right margin from last list item */
+}
+
+nav ul li a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0; /* Add top and bottom padding */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px; /* Add bottom margin between sections */
+}
+
+/* Subsection title styles */
+h2 {
+    color: #333; /* Set title color */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Column layout styles */
+.column {
+    width: calc(33.33% - 20px); /* Set column width */
+    display: inline-block; /* Display columns inline */
+    vertical-align: top; /* Align columns to the top */
+    margin-right: 20px; /* Add right margin between columns */
+    background-color: #d3e10d; /* Set column background color */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Reset default padding for lists */
+ul {
+    padding: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Set footer background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 20px 0; /* Add top and bottom padding */
+}
+
+/* Footer paragraph styles */
+footer p {
+    margin: 0; /* Remove margin */
+}
