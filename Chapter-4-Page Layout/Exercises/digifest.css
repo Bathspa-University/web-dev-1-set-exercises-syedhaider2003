@@ -1,0 +1,149 @@
+/* Styles for the body */
+body {
+  /* Reset margin, padding, and box-sizing */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Hide overflow to prevent scrolling */
+  overflow: hidden;
+}
+
+/* Styles for the header */
+header {
+  /* Make header full width, position it at the top */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /* Apply background color and specific font family */
+  background-color: #17072b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styles for the main heading */
+header h1 {
+  /* Style the main heading text */
+  color: white;
+  text-align: center;
+  /* Add an underline with solid white line */
+  text-decoration: underline solid white 3px;
+  /* Adjust font weight */
+  font-weight: 700;
+}
+
+/* Styles for the navigation */
+header nav {
+  /* Use flexbox for navigation */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Set text color and font weight */
+  color: white;
+  font-weight: 400;
+}
+
+/* Styles for navigation items */
+header nav li {
+  /* Add padding to navigation items */
+  padding: 10px 10px 20px 10px;
+}
+
+/* Styles for the main content */
+main {
+  /* Position main content */
+  position: absolute;
+  top: 15%;
+  /* Set maximum width and add margin */
+  max-width: 65%;
+  margin: 2% 0 0 2%;
+}
+
+/* Styles for main content headings */
+main h2 {
+  /* Adjust font family, add underline with solid black line */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline solid black 3px;
+  /* Adjust font weight */
+  font-weight: 700;
+}
+
+/* Styles for paragraphs in the main content */
+main p {
+  /* Limit paragraph width */
+  max-width: 75ch;
+  /* Adjust font family and size */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+}
+
+/* Styles for images in the main content */
+main img {
+  /* Set maximum width and maintain aspect ratio */
+  max-width: 90%;
+  max-height: auto;
+}
+
+/* Styles for the sidebar */
+aside {
+  /* Position sidebar on the right side */
+  position: absolute;
+  right: 0;
+  top: 20%;
+  /* Apply background color, text color, width, padding, and minimum height */
+  background-color: #172d67;
+  color: white;
+  width: 30%;
+  padding-left: 5%;
+  min-height: 68%;
+}
+
+/* Styles for sidebar headings */
+aside h2 {
+  /* Adjust font family, add underline with solid white line */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline solid white 3px;
+  /* Adjust font weight */
+  font-weight: 700;
+}
+
+/* Styles for sidebar navigation */
+aside nav {
+  /* Use flexbox for sidebar navigation */
+  display: flex;
+  flex-direction: column;
+  /* Add gap between items */
+  row-gap: 2em;
+}
+
+/* Styles for sidebar navigation items */
+aside nav li {
+  /* Remove bullet points from list items */
+  list-style-type: none;
+  /* Adjust font family */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for images in the sidebar */
+aside div img {
+  /* Set maximum width for images */
+  max-width: 50%;
+}
+
+/* Styles for spacing between images in the sidebar */
+aside div img:nth-child(2) {
+  /* Add margin between the second image and others */
+  margin-left: 1%;
+}
+
+/* Styles for the footer */
+footer {
+  /* Position footer at the bottom */
+  position: absolute;
+  bottom: 0;
+  /* Apply background color, width, text color, and center alignment */
+  background-color: #8c15e9;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* Add padding to footer */
+  padding: 5px;
+}
